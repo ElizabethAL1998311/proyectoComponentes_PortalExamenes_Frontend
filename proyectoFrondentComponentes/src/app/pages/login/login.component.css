@@ -1,0 +1,12 @@
+.full-width{
+    width: 100%;;
+  }
+  .spaced {
+    margin-bottom: 20px; /* Ajusta este valor según el espacio que desees */
+  }
+  
+ button.m-2 {
+    margin: 10px; /* Espacio alrededor de los botones */
+  }
+
+  
