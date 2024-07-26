@@ -1,0 +1,14 @@
+.card-container {
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.categoria-item {
+  background-color: #fff; /* Fondo blanco para los ítems */
+  border-radius: 4px; /* Bordes redondeados (opcional) */
+  border-bottom: 1px solid #ddd; /* Línea de división debajo del ítem */
+  margin-bottom: 8px; /* Espacio entre los ítems */
+  display: flex; /* Usar flexbox para alinear el contenido */
+  align-items: center; /* Alinear verticalmente al centro */
+}
+
