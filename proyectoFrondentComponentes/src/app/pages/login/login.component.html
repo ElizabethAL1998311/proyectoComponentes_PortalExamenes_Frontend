@@ -1,31 +1,31 @@
 <div class="bootstrap-wrapper">
   <div class="container">
-    <div class="row mt20">
+    <div class="row mt-4">
       <div class="col-md-6 offset-md-3">
-        <mat-card>
-          <div class="container text-center">
-            <img src="../../../assets/clave.png" width="100" height="100">
+      
+          <div class="text-center mb-4">
+            <img src="../../../assets/clave.png" width="100" height="100" class="mb-3">
           </div>
 
-          <h1 class="text-center">Inicio de sesión</h1>
+          <h1 class="text-center mb-4">Inicio de sesión</h1>
           <form (ngSubmit)="formSubmit()">
-            <mat-form-field class="full-width spaced" appearance="outline">
+            <mat-form-field class="full-width spaced mb-3" appearance="outline">
               <mat-label>Nombre de usuario</mat-label>
               <input [(ngModel)]="loginData.username" name="username" matInput placeholder="Digite su nombre de usuario">
-              <mat-hint>El nombre de usuario debe ser valido</mat-hint>
+              <mat-hint>El nombre de usuario debe ser válido</mat-hint>
             </mat-form-field>
-            <mat-form-field class="full-width spaced" appearance="outline">
+            <mat-form-field class="full-width spaced mb-4" appearance="outline">
               <mat-label>Contraseña</mat-label>
               <input [(ngModel)]="loginData.password" name="password" required type="password" matInput placeholder="Digite su contraseña">
-              <mat-hint>La contraseña debe ser valida</mat-hint>
+              <mat-hint>La contraseña debe ser válida</mat-hint>
             </mat-form-field>
 
-            <div class="container text-center mt-3">
-              <button type="submit" mat-raised-button color="primary" class="m-2">Iniciar sesión</button>
-              <button type="reset" mat-raised-button color="accent" class="m-2">Limpiar</button>
+            <div class="text-center">
+              <button type="submit" mat-raised-button color="primary" class="login-button m-2">Iniciar sesión</button>
+              <button type="reset" mat-raised-button color="accent" class="clear-button m-2">Limpiar</button>
             </div>
           </form>
-        </mat-card>
+       
       </div>
     </div>
   </div>

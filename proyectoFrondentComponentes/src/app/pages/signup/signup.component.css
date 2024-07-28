@@ -1,0 +1,26 @@
+.bootstrap-wrapper {
+  padding-top: 20px;
+  background: url('../../../assets/fondo.jpg') no-repeat center center fixed;
+  background-size: cover; 
+  min-height: 100vh; 
+
+}
+
+/* Estilos específicos para los botones de inicio de sesión y limpiar */
+.login-button {
+    background-color: #337d74 !important; /* Color de fondo para el botón de Iniciar sesión */
+    color: white !important;
+  }
+  
+  .login-button:hover {
+    background-color: #59a38f !important; /* Color de fondo al pasar el ratón */
+  }
+  
+  .clear-button {
+    background-color: #b04e24 !important; /* Color de fondo para el botón de Limpiar */
+    color: white !important;
+  }
+  
+  .clear-button:hover {
+    background-color: #df8e6b !important; /* Color de fondo al pasar el ratón */
+  }

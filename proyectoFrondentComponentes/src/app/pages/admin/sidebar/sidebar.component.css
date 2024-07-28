@@ -1,0 +1,45 @@
+/* Estilo para el card del menú */
+.menu-card {
+    background-color: #f5f5f5; /* Color de fondo del card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el card */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilo para la lista de acciones */
+  .mat-action-list {
+    padding: 0; /* Remover padding adicional */
+  }
+  
+  /* Estilo para el subheader del menú */
+  .mat-subheader {
+    font-size: 18px; /* Tamaño de fuente del subheader */
+    font-weight: bold; /* Texto en negrita */
+    color: #337d74; /* Color del texto */
+    margin-bottom: 10px; /* Espacio debajo del subheader */
+  }
+  
+  /* Estilo para los botones de la lista */
+  button.mat-list-item {
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+    margin-bottom: 10px; /* Espacio entre botones */
+  }
+  
+  /* Color de fondo al pasar el ratón sobre los botones */
+  button.mat-list-item:hover {
+    background-color: #e0f7fa; /* Color de fondo al pasar el ratón */
+  }
+  
+  /* Estilo para los íconos de la lista */
+  button.mat-list-item mat-icon {
+    color: #337d74; /* Color de los íconos */
+    margin-right: 10px; /* Espacio a la derecha de los íconos */
+  }
+  
+  /* Estilo para el texto de los botones */
+  button.mat-list-item span {
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  

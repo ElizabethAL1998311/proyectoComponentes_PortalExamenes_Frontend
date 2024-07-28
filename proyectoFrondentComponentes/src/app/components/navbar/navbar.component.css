@@ -11,3 +11,10 @@
 .spacer {
   flex: 1 1 auto;
 }
+/* Custom Toolbar Styles */
+.custom-toolbar {
+  background-color: #337d74;
+  color: white;
+  height: 100px; /* Ajusta la altura */
+  padding: 0 16px; /* Ajusta el padding si es necesario */
+}
